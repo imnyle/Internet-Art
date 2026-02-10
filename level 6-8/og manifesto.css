@@ -1,0 +1,84 @@
+@font-face {
+font-family: "Wet Painting";
+  src: url("C:\Users\nyle_\Downloads\Software for People\Webzine Project\level 3\fonts\wetpainting.otf") format("opentype");
+}
+
+html{
+    background-image: url("https://wallpapers.com/images/hd/old-paper-texture-1920-x-1080-background-b9hqbqyqrbicnlem.jpg");
+
+}
+
+.bg{
+    z-index: 1;
+}
+
+.container{
+    position: fixed;
+    top:0;
+    right: 8em;
+  display: flex;         /* Makes the container a flex container */
+  justify-content: center; /* Centers the child horizontally */;
+  align-items: center;     /* Centers the child vertically */
+  height: 100vh;
+  z-index: 2;
+}
+
+.title {
+    font-family: "Uncial Antiqua";
+    font-size: 24;
+}
+
+div {
+  display: flex;  
+  align-items: right;
+  justify-content: right;
+}
+
+
+.body {
+    font-family: "Fondamento";
+    font-size: 24;
+}
+
+.center {
+    font-family: "Luxurious Script";
+    font-size: 36;
+    text-align: center;
+    color: rgb(22, 129, 201);
+}
+
+.script {
+    font-family: "Imperial Script";
+    font-size: 200;
+    color: rgb(255, 178, 140);
+    -webkit-text-stroke: 2px rgb(166, 93, 45);
+}
+
+.script2 {
+    font-family: "Imperial Script";
+    font-size: 100;
+    color: rgb(140, 236, 255);
+    -webkit-text-stroke: 1px rgb(22, 129, 201);
+    text-align: center;
+}
+
+.nextpage{
+    font-family: "Fondamento";
+    font-size: 24;
+    font-style: normal;
+    position: fixed;
+    bottom:30;
+    right:50px;
+
+    transition: transform 0.3s ease; /* Smooth animation */
+    display: inline-block; /* Required for scaling */
+}
+
+.nextpage:hover {
+  transform: scale(1.2); /* 1.2 = 120% of original size */
+}
+
+a {
+  text-decoration: none;
+  color:black
+}
