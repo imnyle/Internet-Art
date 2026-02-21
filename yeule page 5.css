@@ -2,7 +2,11 @@ html{
     background-image: linear-gradient(black, #3D658E);
     height: 310vh;
     width: 100%;
-     cursor: url("https://freepngimg.com/thumb/minecraft/80411-angle-symbol-diamond-minecraft-sword-png-file-hd-thumb.png"), auto;
+  cursor: url("Images/gauntlet\ clicker.png"), pointer;
+}
+
+a:hover {
+    cursor: url("Images/Untitled\ design.png"), pointer;
 }
 
 .container {
@@ -99,5 +103,6 @@ animation: fadeIn 2s ease-in-out forwards;
 }
 
 a{
-  color:aliceblue
+  color:aliceblue;
+  text-decoration: none;
 }

@@ -1,0 +1,90 @@
+
+html{
+    background-color: black;
+    width:100%;
+    height: 200vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  cursor: url("Images/gauntlet\ clicker.png"), pointer;
+}
+
+a:hover {
+    cursor: url("Images/Untitled\ design.png"), pointer;
+}
+
+.container {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toptext{
+    position:absolute;
+    top:0;
+    width: 80%;
+    text-align: center;
+  font-family: "space-mono", serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+}
+
+.escapism{
+    position:absolute;
+    top:32vh;
+    width: 100%;
+    text-align: center;
+  font-family: "sloop-script-three", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  margin:20px;
+  mix-blend-mode: difference;
+}
+
+.bottomtext{
+    width: 90%;
+    height: 1000px;
+    position:absolute;
+    top:55vh;
+    font-family: "space-mono", serif;
+    font-size: 48px;
+    font-weight: 400;
+    color:aliceblue;
+    mix-blend-mode: difference;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+.nextpage{
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    font-size: 36;
+    font-style: normal;
+    position: absolute;
+    bottom:-700px;
+    transition: transform 0.3s ease;
+    display: inline-block; 
+}
+
+.nextpage:hover {
+  transform: scale(1.2); 
+}
+
+a{
+  color:aliceblue;
+  text-decoration: none;
+}

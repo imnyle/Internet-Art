@@ -1,0 +1,139 @@
+html{
+  background-image: radial-gradient(rgb(163, 255, 183), rgb(255, 187, 244), rgb(0, 128, 113));
+  background-attachment: fixed;
+    scroll-behavior: smooth;
+  cursor: url("Images/gauntlet\ clicker.png"), pointer;
+}
+
+a:hover {
+    cursor: url("Images/Untitled\ design.png"), pointer;
+}
+.title{
+  position:absolute;
+  top: 625px;
+  right: 50px;
+  font-family: "jacquarda-bastarda-9", sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  font-style: normal;
+  text-align: right;
+  line-height: 80%;
+  color:aliceblue;
+    opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.persona{
+  position:absolute;
+  top: 740px;
+  font-family: "jacquarda-bastarda-9", sans-serif;
+  font-weight: 400;
+  font-size: 310px;
+  font-style: normal;
+  color:aliceblue;
+  mix-blend-mode: exclusion;
+}
+
+
+.artist{
+  position:absolute;
+  top: 10px;
+  left: 50px;
+  font-family: "jacquarda-bastarda-9", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  font-style: normal;
+  color:aliceblue;
+}
+
+body{
+    font-family: "Jacquard 12";
+    font-size: 24px;
+}
+
+.script{
+    font-family: "Imperial Script";
+    font-size: 64px;
+    font-style:italic;
+}
+
+.pink{
+    color:rgb(255, 187, 244);
+     -webkit-text-stroke: .5px rgb(116, 66, 45);
+}
+
+.center{
+     display: flex;  
+      align-items: center;
+      justify-content: center;
+}
+
+.right{
+     display: flex;  
+      align-items: right;
+      justify-content: right;
+      margin-right: 30px;
+}
+
+.left{
+      margin-left: 30px;
+}
+
+.top{
+     display: flex;  
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100%;
+}
+
+#desc{
+     display: flex;  
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width:80%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(30px); 
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+
+.bounce{
+  animation: bounce 2s infinite ease-in-out;
+}
+
+a{
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.nextpage{
+     font-family: "jacquarda-bastarda-9", sans-serif;
+    font-size: 36;
+    font-style: normal;
+    transition: transform 0.3s ease; /* Smooth animation */
+    display: inline-block; /* Required for scaling */
+}
+
+.nextpage:hover {
+  transform: scale(1.2);
+}

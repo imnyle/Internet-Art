@@ -4,6 +4,12 @@ html{
     align-content: center;
     justify-content: center;
     cursor: url("Images/sword-2.png");
+    overflow-y: hidden;
+  cursor: url("Images/gauntlet\ clicker.png"), pointer;
+}
+
+a:hover {
+    cursor: url("Images/Untitled\ design.png"), pointer;
 }
 
 .title{
