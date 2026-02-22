@@ -2,6 +2,8 @@ html{
   background-image: linear-gradient(#FFB4E1, #82B98F, #EFD682);
   scroll-behavior: smooth;
   cursor: url("Images/gauntlet\ clicker.png"), pointer;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 a:hover {

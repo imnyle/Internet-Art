@@ -1,6 +1,7 @@
 html{
     background-image: linear-gradient(black, #3D658E);
-    height: 310vh;
+    background-color: #3D658E;
+    height: 315vh;
     width: 100%;
   cursor: url("Images/gauntlet\ clicker.png"), pointer;
 }

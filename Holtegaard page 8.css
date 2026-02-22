@@ -1,6 +1,7 @@
 html{
   background-image: url(https://images.squarespace-cdn.com/content/v1/57867c3203596edb2dc8e554/52774028-56f1-404f-89f7-7fc96abd8eab/16r.DSCF3697.jpg?format=2500w);
   background-attachment:fixed;
+  background-color: black;
   background-size:250vh;
   background-position: center;
   cursor: url("Images/gauntlet\ clicker.png"), pointer;
